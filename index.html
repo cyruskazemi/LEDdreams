@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>LEDreams</title>
+		<meta name="description" content="LEDreams Music Visualization">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="assets/css/ledreams.css">
+ 	</head>
+ 	<body>
+ 		<div id="controls">
+			<h1>LEDreams</h1>
+			<button id="play">Play</button>
+			<button id="pause">Pause</button>
+			<audio id="audio" controls>
+  		<source src="assets/audio/Major_Lazer_-_Get_Free_[feat._Amber_of Dirty_Projectors]_(Will_Sparks_Remix).mp3" type="audio/mpeg">
+  		Your browser does not support the audio element.
+  	</audio>
+ 		</div>  	
+  	<canvas id="waveform" width="1024" height="512"></canvas>
+	  		
+	 	<!-- Dancer.js -->
+		<script src="assets/js/src/dancer.js"></script>
+		<script src="assets/js/src/support.js"></script>
+		<script src="assets/js/src/kick.js"></script>
+		<script src="assets/js/src/adapterWebkit.js"></script>
+		<script src="assets/js/src/adapterMoz.js"></script>
+		<script src="assets/js/src/adapterFlash.js"></script>
+		<script src="assets/js/lib/fft.js"></script>
+		<script src="assets/js/lib/flash_detect.js"></script>
+		<script src="assets/js/plugins/dancer.fft.js"></script>
+		<script src="assets/js/plugins/dancer.waveform.js"></script>
+
+		<!-- LEDreams -->
+		<script src="assets/js/ledreams.js"></script>
+	</body>
+</html>
