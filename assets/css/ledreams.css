@@ -1,15 +1,15 @@
 @font-face {
   font-family: trsMillion;
-  src: url(trs-million.otf); }
+  src: url(../trs-million.otf); }
 
 @font-face {
   font-family: radioland;
-  src: url(radioland.ttf); }
+  src: url(../radioland.ttf); }
 
 body {
   text-align: center;
   color: #ffffff;
-  background: black url("img/veil.jpg") no-repeat;
+  background: black url("../img/veil.jpg") no-repeat;
   font-family: trsMillion; }
 
 #controls {
