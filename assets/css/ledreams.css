@@ -12,6 +12,15 @@ body {
   background: black url("../img/veil.jpg") no-repeat;
   font-family: trsMillion; }
 
+.red {
+  color: red; }
+
+.green {
+  color: green; }
+
+.blue {
+  color: blue; }
+
 #controls {
   width: 400px;
   display: block;

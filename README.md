@@ -1,4 +1,4 @@
-# LEDreams
+# LED dreams
 
 An audiovisual experiment with HTML5 audio, canvas and Dancer.js. 
 
